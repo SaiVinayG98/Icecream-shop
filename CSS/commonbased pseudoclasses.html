@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div>h1:first-child{
+            color: red;
+        }
+        div>h1:last-child{
+            color: red;
+        }
+        div>h1:nth-child(6){
+            color: blue;
+        }
+        div>p:first-of-type{
+            color: greenyellow;
+            background-color: blueviolet;
+        }
+        div>p:last-of-type{
+            color: cyan;
+            background-color: red;
+        }
+        div>h1:nth-last-child(3){
+            color: green;
+        }
+        div>article:only-child{
+            font-size: 100px;
+            color: aqua;
+        }
+        div>h1:only-of-type{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <article>
+    <div>
+         <p>i am first paragraph</p> 
+        <h1>hello world</h1>
+<p>im last para</p>
+        <h1>hello world 2</h1>
+
+        <h1>items</h1>
+        <h1>items40</h1>
+        <h1>items</h1>
+<h1>im 6th child</h1>
+    </div> 
+</article>
+</body>
+</html>

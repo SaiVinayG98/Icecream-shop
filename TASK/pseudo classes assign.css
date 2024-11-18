@@ -1,0 +1,178 @@
+#one{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(165, 179, 174);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#two{
+    height: 80vh;
+    width: 100vw;
+    background-color: rgb(165, 179, 174);
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+#img1{
+    height: 60vh;
+    width: 25vw;
+    background-color: aliceblue;
+    border: 2px solid black;
+    background-image: url("stree-2");
+    background-size: 344px 250px;
+    background-repeat: no-repeat;
+    position: relative;
+    
+    
+}
+#para{
+    position: absolute;
+    bottom: 60px;
+    left: 8px;
+    height: 50px;
+    width: 300px;
+    text-align: justify;
+}
+#button{
+    position: absolute;
+    bottom: 10px;
+    left: 120px;
+}
+#img1:hover{
+    transform: scale(1.3);
+}
+#img2{
+    height: 60vh;
+    width: 25vw;
+    background-color: aliceblue;
+    border: 2px solid black;
+    background-image: url("kill");
+    background-size: 344px 250px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#para1{
+    position: absolute;
+    bottom: 60px;
+    left: 8px;
+    height: 50px;
+    width: 300px;
+    text-align: justify;
+}
+#button1{
+    position: absolute;
+    bottom: 10px;
+    left: 120px;
+}
+#img2:hover{
+    transform: scale(1.3);
+}
+#img3{
+    height: 60vh;
+    width: 25vw;
+    background-color: aliceblue;
+    border: 2px solid black;
+    background-image: url("laila-majnu");
+    background-size: 344px 250px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#para2{
+    position: absolute;
+    bottom: 60px;
+    left: 8px;
+    height: 50px;
+    width: 300px;
+    text-align: justify;
+}
+#button2{
+    position: absolute;
+    bottom: 10px;
+    left: 120px;
+}
+#img3:hover{
+    transform: scale(1.3);
+}
+#img4{
+    height: 60vh;
+    width: 25vw;
+    background-color: aliceblue;
+    border: 2px solid black;
+    background-image: url("mitwaa");
+    background-size: 344px 250px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#para3{
+    position: absolute;
+    bottom: 60px;
+    left: 8px;
+    height: 50px;
+    width: 300px;
+    text-align: justify;
+}
+#button3{
+    position: absolute;
+    bottom: 10px;
+    left: 120px;
+}
+#img4:hover{
+    transform: scale(1.3);
+}
+#img5{
+    height: 60vh;
+    width: 25vw;
+    background-color: aliceblue;
+    border: 2px solid black;
+    background-image: url("sairat");
+    background-size: 344px 250px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#para4{
+    position: absolute;
+    bottom: 80px;
+    left: 8px;
+    height: 50px;
+    width: 300px;
+    text-align: justify;
+}
+#button4{
+    position: absolute;
+    bottom: 10px;
+    left: 120px;
+}
+#img5:hover{
+    transform: scale(1.3);
+}
+#img6{
+    height: 60vh;
+    width: 25vw;
+    background-color: aliceblue;
+    border: 2px solid black;
+    background-image: url("gandhadhagudi");
+    background-size: 344px 250px;
+    background-repeat: no-repeat;
+    position: relative;
+    transition-property: all 2s linear 1s;
+    
+}
+#img6:hover{
+    transform: scale(1.3);
+    background-color: aquamarine;
+    transition-duration: 2s;
+}
+#para5{
+    position: absolute;
+    bottom: 60px;
+    left: 8px;
+    height: 50px;
+    width: 300px;
+    text-align: justify;
+}
+#button5{
+    position: absolute;
+    bottom: 10px;
+    left: 120px;
+}

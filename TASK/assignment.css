@@ -1,0 +1,21 @@
+#GSV{
+    color: blue;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+}
+.char{
+    color: black;
+    background-color: greenyellow;
+}
+header{
+    background-color: blue;
+    color: black;
+    height: 100px;
+    width: 100%;
+}
+article,nav{
+    color: black;
+    background-color: hotpink;
+    font-size: 100px;
+}

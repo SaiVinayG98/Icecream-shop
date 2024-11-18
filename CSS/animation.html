@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #animate{
+            height: 40vh;
+            width: 40vw;
+            background-color: black;
+            position: absolute;
+            top: 100px;
+            border-radius: 10px;
+            border: 20px solid red;
+            outline: 20px solid blue;
+            outline-offset: 20px;
+            animation-name: GSV;
+            animation-duration: 10s;
+            animation-timing-function: linear;
+            animation-delay: 0s;
+            animation-iteration-count: 3;
+        }
+        @keyframes GSV{
+            /* from{
+                background-color: red;
+            }
+            to{
+                background-color: aqua;
+            } */
+
+            0%{
+                background-color: black;
+            }
+            25%{
+                background-color: red;
+                transform: scale(1.2,1.2);
+            }
+            50%{
+                background-color: hotpink;
+                transform: rotate(360deg);
+            }
+            75%{
+                background-color: blueviolet;
+            }
+            100%{
+                background-color: goldenrod;
+                transform: skew(30deg);
+            }
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        h1{
+            position: absolute;
+            top: 0;
+            left: 550px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Animation In CSS</h1>
+
+    <div id="animate">
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+section{
+    background-color: aqua;
+}
+body{
+    background-color: black;
+}
+div{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+}

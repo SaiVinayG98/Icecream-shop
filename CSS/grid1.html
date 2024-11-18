@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #grid-container{
+            height: 60vh;
+            width: 80vw;
+            background-color: black;
+            display: grid;
+
+            grid-template-areas: "hdr hdr hdr"
+                                 "str str abc"            
+                                 "xyz que abc"              
+                                 "ftr ftr ftr";
+        }
+        .grid-items{
+            background-color: aqua;
+            border: 1px solid red;
+        }
+        #items1{
+            grid-area: hdr;
+            /* justify-self: end;
+            align-self: end; */
+            place-self: end center;
+        }
+        #items2{
+            grid-area: str;
+        }
+        /* #items3{
+            grid-area: pqr;
+        } */
+        #items4{
+            grid-area: abc;
+        }
+        #items5{
+            grid-area:xyz;
+        }
+        #items6{
+            grid-area:que;
+        }
+        /* #items7{
+            grid-area: mno;
+        } */
+        #items8{
+            grid-area: ftr;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="grid-container">
+        <div class="grid-items" id="items1">grid-boxes1</div>
+        <div class="grid-items" id="items2">grid-boxes2</div>
+        <!-- <div class="grid-items" id="items3">grid-boxes3</div> -->
+        <div class="grid-items" id="items4">grid-boxes4</div>
+        <div class="grid-items" id="items5">grid-boxes5</div>
+        <div class="grid-items" id="items6">grid-boxes6</div>
+        <!-- <div class="grid-items" id="items7">grid-boxes7</div> -->
+        <div class="grid-items" id="items8">grid-boxes8</div>
+    </div>
+</body>
+</html>

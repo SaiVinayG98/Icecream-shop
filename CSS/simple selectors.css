@@ -1,0 +1,26 @@
+body{
+    background-color: yellow;
+}
+article{
+    background-color: aquamarine;
+    color: hotpink;
+    height: 200px;
+    width: 200px;
+}
+#violet-box{
+    background-color: blue;
+    color: gold;
+    height: 250px;
+    width: 250px;
+}
+#aqua-box{
+    background-color: coral;
+    color: cornsilk;
+    height: 200px;
+    width: 200px;
+}
+.dot{
+    background-color: cyan;
+    color: brown;
+    font-size: 35px;
+}

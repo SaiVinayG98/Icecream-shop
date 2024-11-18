@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div article{
+            color: aqua;
+            background-color: brown;
+            border: 10px solid yellow;
+        }
+        div>article{
+            color: white;
+            background-color: black;
+            border: 1px solid red;
+        }
+        div+article{
+            color: purple;
+            background-color: khaki;
+            border: 1px solid yellow;
+        }
+    </style>
+</head>
+<body>
+    <!-- (div>article{one}+article{two}+(section>h1{three}+h2{four}+article{five}))+article{adjacent}+article{general} -->
+
+    <div>
+        <article>one</article>
+        <article>two</article>
+        <section>
+            <h1>three</h1>
+            <h2>four</h2>
+            <article>five</article>
+        </section>
+    </div>
+    <article>adjacent</article>
+    <article>general</article>
+</body>
+</html>

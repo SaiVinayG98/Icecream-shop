@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a:link{
+            color: red;
+        }
+        a:visited{
+            color: blue;
+        }
+        a:hover{
+            color: yellow;
+        }
+        a:active{
+            color: hotpink;
+        }
+        #hover{
+            height: 200px;
+            width: 200px;
+            background-color: yellow;
+            position: absolute;
+            left: 300px;
+            top: 200px;
+            transition-property: background-color,height,width;
+            transition-duration: 5s,2s,3s;
+            transition-timing-function: linear,linear,linear;
+            transition-delay: 0.1s,0.1s,5s;
+        }
+        #hover:hover{
+            background-color: blue;
+            height: 300px;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+  <a href="https://www.abc.com">Link</a>  
+  <div id="hover"></div>
+</body>
+</html>

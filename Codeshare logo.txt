@@ -1,0 +1,88 @@
+Codeshare logo
+ ShareSign UpLog In
+Reconnecting...
+1
+<!DOCTYPE html>
+2
+<html lang="en">
+3
+<head>
+4
+    <meta charset="UTF-8">
+5
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+6
+    <title>Forms</title>
+7
+</head>
+8
+<body>
+9
+    <input type="button" value="cancel">
+10
+    <button>submit</button>
+11
+    <form action="" method="get" autocomplete="on">
+12
+        <fieldset >
+13
+            <legend >Enter the Fields</legend>
+14
+            <table>
+15
+                <tr>
+16
+                    <td>
+17
+                        <label for="fn">Firstname</label>
+18
+                    </td>
+19
+                    <td>
+20
+                        <input type="text" name="priya" id="fn" placeholder="Enter The First name" required>
+21
+                    </td>
+22
+                </tr>
+23
+​
+24
+                <tr>
+25
+                    <td>
+26
+                        <label for="ln">Lastname</label>
+27
+                    </td>
+28
+                    <td>
+29
+                        <input type="text" id="ln" name="lastname" placeholder="Enter The last name" required>
+30
+                    </td>
+31
+                </tr>
+32
+                <tr>
+33
+                    <td>
+34
+                        <label for="pass">password</label>
+35
+                    </td>
+36
+                    <td>
+37
+                        <input type="password" name="=pass" id="pass" placeholder="Enter The password" required>
+38
+                    </td>
+39
+                </tr>
+
+
+
+
+
+px
+Hide Ads

@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-image: linear-gradient(to right,chocolate,bisque);
+}
+#contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 900;
+}
+li{
+    list-style: none;
+}
+#btns{
+    width: 14%;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    padding: 3px 15px;
+}

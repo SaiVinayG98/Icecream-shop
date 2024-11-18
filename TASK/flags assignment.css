@@ -1,0 +1,115 @@
+header{
+    height: 300px;
+    width: 100vw;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#cls1{
+    height: 200px;
+    width: 300px;
+    background-color: blueviolet;
+    border: 5px solid black;
+    background-image: linear-gradient(yellow 0%,yellow 50%,red 50%,red 100%);
+}
+#cls2{
+    height: 200px;
+    width: 300px;
+    background-color: blueviolet;
+    border: 5px solid black;
+    background-image: linear-gradient(orange 0%,orange 33.3%,white 33.3%, white 66.6%, green 66.6%,green 100%);
+    
+
+}
+#cls3{
+    height: 200px;
+    width: 300px;
+    background-color: blueviolet;
+    border: 5px solid black;
+    background-image: linear-gradient( to right,blue 0%,blue 33.3%,white 33.3%,white 66.6%, red 66.6%,red 100%);
+
+}
+#cls4{
+    height: 200px;
+    width: 300px;
+    background-color: blueviolet;
+    border: 5px solid black;
+    background-image: linear-gradient(to right, green 0%,green 33.3%,white 33.3%,white 66.6%, red 66.6%,red 100%);
+
+}
+#cls5{
+    height: 200px;
+    width: 300px;
+    background-color: blueviolet;
+    border: 5px solid black;
+    background-image: linear-gradient(black 0%,black 33.3%,red 33.3%,red 66.6%,yellow 66.6%,yellow 100%);
+}
+
+#ac{
+    height: 65px;
+    width: 65px;
+    background-color: yellowgreen;
+    /* border: 5px solid red; */
+    border-radius: 50%;
+    background-image: repeating-conic-gradient(white 0%,white 2.10%,blue 2.10%, blue 4.20%);
+    position: absolute;
+    margin-right: 530px;
+}
+nav{
+    height: 300px;
+    width: 100vw;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+    #cls6{
+        height: 200px;
+        width: 300px;
+        background-color: blueviolet;
+        border: 5px solid black;
+        background-image: conic-gradient( blue 0%,blue 25%, red 25%,red 62.7%,white 62.7%,white 100%);
+
+    }
+    #cls7{
+        height: 200px;
+        width: 300px;
+        background-color: blueviolet;
+        border: 5px solid black;
+        background-image: linear-gradient(brown 0%,brown 33.3%,white 33.3%,white 66.6%,blue 66.6%,blue 100%);
+}
+        
+       
+    #cls8{
+        height: 200px;
+        width: 300px;
+        background-color: white;
+        border: 5px solid black;
+        
+    } 
+    #bc{
+        height: 180px;
+        width: 180px;
+        background-color: brown;
+        /* border: 5px solid red; */
+        border-radius: 50%;
+        /* background-image: repeating-conic-gradient(white 0%white 2.10%,blue 2.10%, blue 4.20%); */
+        position: absolute;
+        margin-left: 5px;
+    }   
+    #cls9{
+        height: 200px;
+        width: 300px;
+        background-color: blueviolet;
+        border: 5px solid black;
+        background-image: linear-gradient( to right,black 0%,black 33.3%,yellow 33.3%,yellow 66.6%,red 66.6%,red 100%);
+    }    
+    #cls10{
+        height: 200px;
+        width: 300px;
+        background-color: blueviolet;
+        border: 5px solid black;
+        background-image: linear-gradient(to right,brown 0%,brown 25%,green 25%,green 50%,white 50%,white 75%,black 75%, black 100%);
+    }

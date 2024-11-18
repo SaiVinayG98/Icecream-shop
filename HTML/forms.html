@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="" autocomplete="off" method="post">
+        <fieldset>
+            <legend>Enter the fields</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="fn">First Name </label>
+                    </td>
+                    <td>
+                        <input type="text" id="fn" name="First Name" placeholder="Enter the First Name" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="ln">Last Name</label>
+                    </td>
+                    <td><input type="text" id="ln" name="Last Name" placeholder="Enter the Last Name" required></td>
+                </tr>
+<tr>
+    <td>
+        <label for="dob">DOB</label>
+    </td>
+    <td><input type="datetime-local" id="dob" name="DOB" placeholder="Enter the DOB" required></td>
+</tr>  
+<tr>
+    <td><label for="">Gender</label></td>
+    <td><input type="radio" name="Gender" value="male">Male
+        <input type="radio" name="Gender" value="female">Female
+        <input type="radio" name="Gender" value="others">Others
+    </td>
+</tr>              
+                <tr>
+                    <td><label for="mn">Mobile No.</label></td>
+                    <td><input type="text" id="mn" name="Mobile No." placeholder="Mobile No." required></td>
+                </tr>
+                <tr>
+                    <td>
+                     <label for="em">Email</label>   
+                    </td>
+                    <td><input type="email" id="em" name="Email" placeholder="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="ad">Adress</label></td>
+                    <td><textarea name="Adress" id="ad" placeholder="Adress" required></textarea></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pw">Password</label>
+                    </td>
+                    <td><input type="password" id="pw" name="Password" placeholder="Password" required> </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Skills</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="Skill" value="html">HTML
+                        <input type="checkbox" name="Skill" value="Css">CSS
+                        <input type="checkbox" name="Skill" value="Js">JS
+                        <input type="checkbox" name="Skill" value="React js">REACT JS
+                    </td>
+                </tr>
+                <tr>
+                    <tr>
+                        <td><label for="">Upload an image</label></td>
+                        <td><input type="image" src="Scenery" width="100px" height="100px"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="sports">Sports</label></td>
+                        <td><select name="sports" id="sports">
+                            <option value="Cricket">Cricket</option>
+                            <option value="Football">Football</option>
+                            <option value="Basketball">Basketball</option>
+                            <option value="Hockey">Hockey</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="file">Upload a file</label></td>
+                        <td><input type="file" id="file" name="file" required></td>
+                    </tr>
+                    <td>
+                        <button>Submit</button>
+                    </td>
+                    <td>
+                        <button>Cancel</button>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
